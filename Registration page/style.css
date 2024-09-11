@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 600px;
+    height:730px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.input1{
+    display: flex;
+    justify-content: space-between;
+}
+.inputbox input{
+    border: 1.5px solid;
+    border-radius: 3px;
+    margin-top: 10px;
+    height:25px;
+    width: 89%;
+}
+.input2{
+    margin-top: 10px;
+    
+}
+.input2 input{
+    border: 1.5px solid;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height:30px;
+    width: 95%;
+    
+}
+.input2 p{
+    margin-top:5px ;
+}
+.email{
+    display: flex;
+}
+
+.phone{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+    padding-left:0px;
+    padding-right: 20%;
+}
+table,td{
+    border-spacing:7px;
+}
+.input2 .red{
+    color: red;
+}
+.input2 .b{
+    margin-top: 20px;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+    padding-right:70%;
+    margin-bottom: 10px;
+    
+}
+.b{
+    display: flex;
+    justify-content: space-between;
+    padding-right:50%; 
+    margin-bottom: 10px;
+}
+.c{
+    display: flex;
+    justify-content: space-between;
+    padding-right:75%;
+    margin-bottom: 10px;
+}
+.select button{
+    width:20% ;
+    margin-right:10px ;
+    height: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1.5px solid;
+}
+.select-btn button{
+    width:max-content;
+    height: 2rem;
+    text-align:left;
+    padding-left:1rem;
+    padding-right: 3rem;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1.5px solid;
+}
+.select-btn .type{
+    padding-right: 2rem;
+    text-align: center;
+}
+
+.btn{
+
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.btn .submit-btn{
+
+    width: 110%;
+    height:30px;
+    margin-top:20px ;
+    border: none;
+    color: white;
+    text-align: center;
+    background:darkblue;
+    border-radius:5px;
+    cursor: pointer;
+    border: 2px solid;
+}
