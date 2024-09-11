@@ -1,0 +1,270 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 66px;
+    background-color:white;
+    padding: 0 30px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+header .logo img{
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+header:hover{
+    box-shadow: 0 0 1rem  rgba(234, 224, 224, 0.86);
+    cursor: pointer;
+    transition: 0.2s;
+}
+header ul{
+    position: relative;
+    
+}
+header ul li{
+    position: relative;
+    list-style: none;
+    float:left;
+    
+}
+header ul li a{
+    color:black;
+    font-size: 1.1em;
+    padding: 20px 25px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    
+}
+header ul li a:hover{
+    background-color: rgb(164, 177, 236);
+    
+}
+header ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background-color: #c4c6d2;
+    display:none;
+}
+header ul li:hover ul{
+     display: block;
+}
+header ul li ul li{
+    position: relative;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+header ul li div{
+    border-radius: 10px;
+}
+header ul li div a:hover{
+    background-color: white;
+    box-shadow: 0 0 1rem  rgba(242, 245, 249, 0.952);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.sub-menu-wrap{
+    position:absolute;
+    border-radius: 5px;
+    top: 110%;
+    right: 10%;
+    display:none;
+    width: 320px;
+    
+}
+.sub-menu{
+    background-color: white;
+    padding: 8px;
+    
+}
+.sub-menu-link{
+    display: flex;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-size: medium;
+    font-weight: 500;
+    text-decoration: none;
+    
+}
+header ul li:hover div{
+    display: block;
+    box-shadow: 0 0 1rem  rgba(242, 245, 249, 0.952);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.sub-menu-link:hover span{
+    transform: translateX(5px);
+}
+.registrationbox{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 140vh;
+    
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    border:1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 650px;
+    height:750px;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.input1{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.inputbox input{
+    border: 1.5px solid;
+    border-radius: 3px;
+    margin-top: 10px;
+    height:30px;
+    width: 89%;
+}
+.input2{
+    margin-top: 10px;
+    font-weight: 500;
+    
+}
+.input2 input{
+    border: 1.5px solid;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    height:30px;
+    width: 95%;
+    
+}
+.input2 p{
+    margin-top:5px ;
+}
+.email{
+    display: flex;
+}
+
+.phone{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0px;
+    padding-left:0px;
+    padding-right: 20%;
+}
+table,td{
+    border-spacing:7px;
+}
+.input2 .red{
+    color: red;
+}
+.input2 .b{
+    margin-top: 20px;
+}
+::placeholder{
+    padding-left: 10px;
+    font-weight: 400;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+    padding-right:70%;
+    margin-bottom: 10px;
+    
+}
+.b{
+    display: flex;
+    justify-content: space-between;
+    padding-right:50%; 
+    margin-bottom: 10px;
+}
+.c{
+    display: flex;
+    justify-content: space-between;
+    padding-right:75%;
+    margin-bottom: 10px;
+}
+.select button{
+    width:20% ;
+    margin-right:10px ;
+    height: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    border: 1.5px solid;
+}
+.select-btn button{
+    width:max-content;
+    height: 2rem;
+    text-align:left;
+    padding-left:1rem;
+    padding-right: 3rem;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1.5px solid;
+}
+.select-btn .type{
+    padding-right: 2rem;
+    text-align: center;
+}
+.btn{
+  display: flex;
+  padding-left: 35%;
+  padding-right: 0%;
+  
+}
+.btn .submit-btn{
+    
+    width: 100px;
+    height:40px;
+    margin-top:10px ;
+    border: none;
+    color: white;
+    text-align: center;
+    background:rgb(17, 17, 70);
+    border-radius:5px;
+    cursor: pointer;
+    border: 2px solid;
+}
+.select-btn span{
+    position: absolute;
+    padding-left: 25px;
+}
+ .select-btn .lb{
+    padding-left: 2rem;
+    text-align:center;
+}
+.icon{
+    position: absolute;
+    left: 47.5%;
+}
+.a .material-symbols-outlined{
+    color: red;
+} 
+.b .material-symbols-outlined{
+    color: red;
+}
+.c .material-symbols-outlined{
+    color: red;
+}
